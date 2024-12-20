@@ -1,6 +1,7 @@
 @extends('admin.master')
 
 @section('title', 'Index')
+@section('active-dashboard', 'active')
 
 
 @section('content')

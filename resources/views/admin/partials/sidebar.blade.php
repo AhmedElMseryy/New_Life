@@ -15,7 +15,7 @@
                         <label>Navigation</label>
                     </li>
                     <!--********************************DASHBOARD********************************-->
-                    <li class="pc-item pc-hasmenu">
+                    <li class="pc-item pc-hasmenu @yield('active-dashboard')">
                         <a href="#!" class="pc-link">
                             <span class="pc-micon">
                                 <i class="ph-duotone ph-house"></i>
@@ -28,7 +28,7 @@
 
 
                     <!--*********************************NETWORK*********************************-->
-                    <li class="pc-item pc-hasmenu">
+                    <li class="pc-item pc-hasmenu @yield('active-network')">
                         <a href="#!" class="pc-link">
                             <span class="pc-micon">
                                 <i class="ph-duotone ph-share-network"></i>
@@ -45,7 +45,7 @@
                     <!--**************************************************************************-->
 
                     <!--*********************************RANKS*********************************-->
-                    <li class="pc-item pc-hasmenu">
+                    <li class="pc-item pc-hasmenu @yield('active-ranks')">
                         <a href="#!" class="pc-link">
                             <span class="pc-micon">
                                 <i class="ph-duotone ph-medal"></i>
@@ -61,7 +61,7 @@
                     <!--***********************************************************************-->
 
                     <!--********************************WALLET********************************-->
-                    <li class="pc-item pc-hasmenu">
+                    <li class="pc-item pc-hasmenu @yield('active-wallet')">
                         <a href="#!" class="pc-link">
                             <span class="pc-micon">
                                 <i class="ph-duotone ph-wallet"></i>
@@ -72,7 +72,7 @@
                     <!--**********************************************************************-->
 
                     <!--*********************************CATALOG*******************************-->
-                    <li class="pc-item pc-hasmenu">
+                    <li class="pc-item pc-hasmenu @yield('active-catalog')">
                         <a href="#!" class="pc-link">
                             <span class="pc-micon">
                                 <i class="ph-duotone ph-books"></i>
@@ -87,7 +87,7 @@
                     <!--***********************************************************************-->
 
                     <!--*********************************COURSE*******************************-->
-                    <li class="pc-item pc-hasmenu">
+                    <li class="pc-item pc-hasmenu @yield('active-course')">
                         <a href="#!" class="pc-link">
                             <span class="pc-micon">
                                 <i class="ph-duotone ph-play-circle"></i>
@@ -103,7 +103,7 @@
                     <!--***********************************************************************-->
 
                     <!--*********************************SUPPORT*******************************-->
-                    <li class="pc-item pc-hasmenu">
+                    <li class="pc-item pc-hasmenu @yield('active-support')">
                         <a href="#!" class="pc-link">
                             <span class="pc-micon">
                                 <i class="ph-duotone ph-headset"></i>
