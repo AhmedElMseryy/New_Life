@@ -80,12 +80,10 @@
                                                  <span>Add account</span>
                                              </span>
                                          </a>
-                                         <a href="#" class="dropdown-item">
-                                             <span class="d-flex align-items-center">
-                                                 <i class="ph-duotone ph-power"></i>
-                                                 <span>Logout</span>
-                                             </span>
-                                         </a>
+
+                                         <!-- LOGOUT BUTTON -->
+                                         @livewire('admin.auth.admin-logout-component')
+
                                      </li>
                                  </ul>
                              </div>
