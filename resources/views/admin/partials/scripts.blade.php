@@ -15,12 +15,12 @@
 
 
  <script>
-     layout_change('light');
+     layout_change('dark');
  </script>
 
 
  <script>
-     layout_sidebar_change('light');
+     layout_sidebar_change('dark');
  </script>
 
 
