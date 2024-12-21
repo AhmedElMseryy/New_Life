@@ -1,5 +1,5 @@
 <!-- Modal -->
-<x-create-modal title="Add New Item">
+<x-create-modal title="Add New Rank">
     <!-- NAME -->
     <div class="col-md-6 mb-3">
         <label class="form-label">Name</label>

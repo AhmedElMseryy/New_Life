@@ -59,4 +59,6 @@ Route::prefix('/admin')->name('admin.')->group(function () {
     #--------------------------------LOGIN PAGE
     #--------------------------------LOGIN PAGE
     Route::view('login', 'admin.auth.login')->middleware('guest:admin')->name('login');
+
+    //NEW PRANCH ELMSERY
 });
