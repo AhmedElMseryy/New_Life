@@ -49,7 +49,10 @@ Route::prefix('/admin')->name('admin.')->group(function () {
         Route::view('', 'admin.index')->name('index');
 
         #--------------------------------SETTING PAGE
-        Route::view('/login', 'admin.auth.login')->name('settings');
+        Route::view('/network', 'admin.network.index')->name('network');
+
+        #--------------------------------RANKS PAGE
+        Route::view('/ranks', 'admin.ranks.index')->name('ranks');
     });
 
     #--------------------------------LOGIN PAGE

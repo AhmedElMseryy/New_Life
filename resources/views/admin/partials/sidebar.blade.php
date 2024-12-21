@@ -16,7 +16,7 @@
                     </li>
                     <!--********************************DASHBOARD********************************-->
                     <li class="pc-item pc-hasmenu @yield('active-dashboard')">
-                        <a href="#!" class="pc-link">
+                        <a href="{{ route('admin.index') }}" class="pc-link">
                             <span class="pc-micon">
                                 <i class="ph-duotone ph-house"></i>
                                 {{-- <i class="fas fa-home"></i> --}}
@@ -37,7 +37,7 @@
                             <span class="pc-arrow"><i data-feather="chevron-right"></i></span>
                         </a>
                         <ul class="pc-submenu">
-                            <li class="pc-item"><a class="pc-link" href="#">User</a></li>
+                            <li class="pc-item"><a class="pc-link" href="{{ route('admin.network') }}">User</a></li>
                             <li class="pc-item"><a class="pc-link" href="#">NetWork</a></li>
                             <li class="pc-item"><a class="pc-link" href="#">NetWork Shift</a></li>
                         </ul>
@@ -54,7 +54,7 @@
                             <span class="pc-arrow"><i data-feather="chevron-right"></i></span>
                         </a>
                         <ul class="pc-submenu">
-                            <li class="pc-item"><a class="pc-link" href="#">Rank</a></li>
+                            <li class="pc-item"><a class="pc-link" href="{{ route('admin.ranks') }}">Rank</a></li>
                             <li class="pc-item"><a class="pc-link" href="#">Target</a></li>
                         </ul>
                     </li>
