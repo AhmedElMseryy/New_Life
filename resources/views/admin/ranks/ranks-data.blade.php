@@ -1,8 +1,8 @@
 <div>
     <div class="d-flex justify-content-between align-items-center mb-3">
         <!-- Add New -->
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#login-modal">
-            Add New
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#createModal">
+            Add Rank
         </button>
 
         <!-- SEARCH -->
@@ -13,19 +13,21 @@
         <table id="c-tool-ele" class="table table-striped table-bordered nowrap">
             <thead>
                 <tr>
-                    <th>First name</th>
-                    <th>Last name</th>
-                    <th>Office</th>
-                    <th>Age</th>
-                    <th>DOB</th>
-                    <th>Salary</th>
-                    <th>Actions</th>
+                    <th>NAME</th>
+                    <th>CODE</th>
+                    <th>BV LEFT</th>
+                    <th>BV RIGHT</th>
+                    <th>PRIZE</th>
+                    <th>ORDER</th>
+                    <th>STATUS</th>
+                    <th>ACTIONS</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
                     <td>Quinn Flynn</td>
                     <td>System Architect</td>
+                    <td>Edinburgh</td>
                     <td>Edinburgh</td>
                     <td>61</td>
                     <td>2011/04/25</td>
