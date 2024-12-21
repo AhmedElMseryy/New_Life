@@ -4,8 +4,8 @@
 @include('admin.partials.head')
 <!--**************************-->
 
-<body data-pc-preset="preset-1" data-pc-sidebar-theme="light" data-pc-sidebar-caption="true" data-pc-direction="ltr"
-    data-pc-theme="light">
+<body data-pc-preset="preset-1" data-pc-sidebar-theme="dark" data-pc-sidebar-caption="true" data-pc-direction="ltr"
+    data-pc-theme="dark">
     <!-- [ Pre-loader ] start -->
     <div class="loader-bg">
         <div class="loader-track">

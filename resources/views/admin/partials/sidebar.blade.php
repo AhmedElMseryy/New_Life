@@ -4,9 +4,7 @@
             <div class="m-header">
                 <a href="#" class="b-brand text-primary">
                     <!-- ========   Change your logo from here   ============ -->
-                    <img src="{{ asset('admin-assets') }}/images/logo-dark.svg" alt="logo image" class="logo-lg" />
-                    {{-- <img src="/mix.png" alt="logo image" class="logo-lg" /> --}}
-
+                    <img src="{{ asset('admin-assets') }}/images/logo-white.svg" alt="logo image" class="logo-lg" />
                 </a>
             </div>
             <div class="navbar-content">
