@@ -2,7 +2,7 @@
     <nav class="pc-sidebar">
         <div class="navbar-wrapper">
             <div class="m-header">
-                <a href="#" class="b-brand text-primary">
+                <a href="{{ route('admin.index') }}" class="b-brand text-primary">
                     <!-- ========   Change your logo from here   ============ -->
                     <img src="{{ asset('admin-assets') }}/images/logo-white.svg" alt="logo image" class="logo-lg" />
                 </a>

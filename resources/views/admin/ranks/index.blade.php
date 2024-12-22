@@ -34,9 +34,16 @@
                     <div class="card">
                         <div class="card-body">
 
+                            <!--******************* ranks Create *******************-->
+                            @livewire('admin.ranks.ranks-create')
+                            <!--***************************************************-->
                             @livewire('admin.ranks.ranks-data')
 
                         </div>
+                        <!--************ Ranks Update & Delete  ************-->
+                        @livewire('admin.ranks.ranks-update')
+                        @livewire('admin.ranks.ranks-delete')
+                        <!--************************************************-->
                     </div>
 
                 </div>
@@ -46,7 +53,5 @@
     </section>
 
 
-    <!--******************* ranks Create *******************-->
-    @livewire('admin.ranks.ranks-create')
-    <!--***************************************************-->
+
 @endsection

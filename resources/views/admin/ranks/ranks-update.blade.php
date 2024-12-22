@@ -1,5 +1,6 @@
 <!-- Modal -->
-<x-create-modal title="Add New Rank">
+<x-edit-modal title="Edit Rank">
+
     <!-- NAME -->
     <div class="col-md-6 mb-3">
         <label class="form-label">Name</label>
@@ -41,4 +42,4 @@
         <textarea class="form-control" rows="3" placeholder="Description" wire:model='description'></textarea>
         <x-error-message field="description" />
     </div>
-</x-create-modal>
+</x-edit-modal>
