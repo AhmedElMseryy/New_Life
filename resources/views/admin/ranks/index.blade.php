@@ -14,13 +14,13 @@
                         <div class="col-md-12">
                             <ul class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="#">Dashboard</a></li>
-                                <li class="breadcrumb-item"><a href="#">Networks</a></li>
-                                <li class="breadcrumb-item" aria-current="page">User</li>
+                                <li class="breadcrumb-item"><a href="#">Ranks</a></li>
+                                <li class="breadcrumb-item" aria-current="page">List</li>
                             </ul>
                         </div>
                         <div class="col-md-12">
                             <div class="page-header-title">
-                                <h2 class="mb-0">User Network</h2>
+                                <h2 class="mb-0">Ranks List</h2>
                             </div>
                         </div>
                     </div>

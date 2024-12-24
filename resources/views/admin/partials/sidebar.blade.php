@@ -19,7 +19,7 @@
                                 <i class="ph-duotone ph-house"></i>
                                 {{-- <i class="fas fa-home"></i> --}}
                             </span>
-                            <span class="pc-mtext">Dashboard</span>
+                            <span class="pc-mtext">DASHBOARD</span>
                         </a>
                     </li>
                     <!--**************************************************************************-->
@@ -31,7 +31,7 @@
                             <span class="pc-micon">
                                 <i class="ph-duotone ph-share-network"></i>
                             </span>
-                            <span class="pc-mtext">Network</span>
+                            <span class="pc-mtext">NETWORK</span>
                             <span class="pc-arrow"><i data-feather="chevron-right"></i></span>
                         </a>
                         <ul class="pc-submenu">
@@ -48,7 +48,7 @@
                             <span class="pc-micon">
                                 <i class="ph-duotone ph-medal"></i>
                             </span>
-                            <span class="pc-mtext">Ranks</span>
+                            <span class="pc-mtext">RANKS</span>
                             <span class="pc-arrow"><i data-feather="chevron-right"></i></span>
                         </a>
                         <ul class="pc-submenu">
@@ -64,7 +64,7 @@
                             <span class="pc-micon">
                                 <i class="ph-duotone ph-wallet"></i>
                             </span>
-                            <span class="pc-mtext">Wallet</span>
+                            <span class="pc-mtext">WALLET</span>
                         </a>
                     </li>
                     <!--**********************************************************************-->
@@ -75,7 +75,7 @@
                             <span class="pc-micon">
                                 <i class="ph-duotone ph-books"></i>
                             </span>
-                            <span class="pc-mtext">Catalog</span>
+                            <span class="pc-mtext">CATALOG</span>
                             <span class="pc-arrow"><i data-feather="chevron-right"></i></span>
                         </a>
                         <ul class="pc-submenu">
@@ -90,7 +90,7 @@
                             <span class="pc-micon">
                                 <i class="ph-duotone ph-play-circle"></i>
                             </span>
-                            <span class="pc-mtext">Course</span>
+                            <span class="pc-mtext">COURSE</span>
                             <span class="pc-arrow"><i data-feather="chevron-right"></i></span>
                         </a>
                         <ul class="pc-submenu">
@@ -106,7 +106,7 @@
                             <span class="pc-micon">
                                 <i class="ph-duotone ph-headset"></i>
                             </span>
-                            <span class="pc-mtext">Support</span>
+                            <span class="pc-mtext">SUPPORT</span>
                         </a>
                     </li>
                     <!--***********************************************************************-->
