@@ -53,12 +53,11 @@ Route::prefix('/admin')->name('admin.')->group(function () {
 
         #--------------------------------RANKS PAGE
         Route::view('/ranks', 'admin.ranks.index')->name('ranks');
+
+        #--------------------------------PACKAGES PAGE
+        Route::view('/packages', 'admin.packages.index')->name('packages');
     });
 
     #--------------------------------LOGIN PAGE
-    #--------------------------------LOGIN PAGE
-    #--------------------------------LOGIN PAGE
     Route::view('login', 'admin.auth.login')->middleware('guest:admin')->name('login');
-
-    //NEW PRANCH ELMSERY
 });
